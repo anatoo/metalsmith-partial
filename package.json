@@ -1,0 +1,22 @@
+{
+  "name": "metalsmith-renderer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitsunori KUBOTA",
+  "license": "MIT",
+  "dependencies": {
+    "consolidate": "^0.10.0",
+    "extend": "^2.0.0"
+  },
+  "devDependencies": {
+    "metalsmith": "^1.0.1",
+    "assert-dir-equal": "^1.0.1",
+    "mocha": "^2.1.0",
+    "metalsmith-templates": "^0.6.0",
+    "eco": "^1.1.0-rc-3"
+  }
+}
