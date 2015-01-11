@@ -33,6 +33,8 @@ Build file `build.js`:
 
 ```javascript
 var metalsmith = require('metalsmith');
+var partial = require('metalsmith-partial');
+var templates = require('metalsmith-templates');
 
 metalsmith(__dirname)
   .source('./src')

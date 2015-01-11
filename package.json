@@ -1,12 +1,13 @@
 {
-  "name": "metalsmith-renderer",
-  "version": "0.0.0",
-  "description": "",
+  "name": "metalsmith-partial",
+  "version": "0.1.0",
+  "description": "A metalsmith plugin to provide a 'partial' helper.",
+  "repository": "git@github.com:anatoo/metalsmith-partial.git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test"
   },
-  "author": "Mitsunori KUBOTA",
+  "author": "Mitsunori KUBOTA <anatoo.jp@gmail.com> (http://anatoo.jp)",
   "license": "MIT",
   "dependencies": {
     "consolidate": "^0.10.0",
